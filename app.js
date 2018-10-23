@@ -1,45 +1,46 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Viola",
+    lastName: "Stefanello",
+    description: "Master's student in Journalism and International Affairs at Sciences Po Paris",
+    photo: "./viola.jpg",
+    twitter: "violaparanoica",
+    github: "violastefanello",
+    mail: "violaserena.stefanello@sciencespo.fr",
     experiences: [{
+      dateBegin: "2018",
+      dateEnd: "Today",
+      name: "The Post Internazionale",
+      title: "Journalist",
+      description: "writing news, features, interviews and photo stories for the news, politics and culture desks / covering news under pressure / SEO optimisation and Google indexation"
+
+    }, {
+      dateBegin: "May 2018",
+      dateEnd: "June 2018",
+      name: "Cafébabel",
+      title: "Editorial intern",
+      description: "writing long form articles on lifestyle and culture in English and Italian / translating articles from English and French to Italian / editing original content / managing social media and disseminating articles"
+    }, {
       dateBegin: "2014",
       dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }, {
-      dateBegin: "Été 2013",
-      dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
-    }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
-      description: false
+      name: "Different outlets",
+      title: "Freelance journalist",
+      description: "writing articles and op-eds on politics, international relations, culture and society for several online and print newspapers in Italian, English and French (Are We Europe, Èmile, SALT Editions, MSOI The Post)"
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
-      name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2017",
+      dateEnd: "Today",
+      name: "Joint Master in Journalism and International Affairs",
+      university: "Sciences Po Paris"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2014",
+      dateEnd: "2017",
+      name: "Bachelor in International and Diplomatic Studies",
+      university: "Università degli Studi di Trieste"
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["Italian", "English", "Spanish", "French"],
+    skills: ["Social Media", "SEO optimisation", "Microsoft Office", "WordPress", "Adobe Premier", "Adobe Audition"]
   },
   computed: {
     fullName() {
